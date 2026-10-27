@@ -1,0 +1,27 @@
+# Developer credentials and service configuration
+.env
+.env.*
+!.env.example
+/Config/Developer.xcconfig
+/Config/Service.plist
+/Config/*-Info.plist
+/Config/*.entitlements
+
+# Generated projects, downloads and build output
+.build/
+**/.build/
+/DerivedData/
+/*.xcodeproj/
+/Models/
+/prototype-launch.png
+/outputs/
+node_modules/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+__pycache__/
+*.py[cod]
+
+# Private handoff and local device observations
+/docs/*
+!/docs/development.md
